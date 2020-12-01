@@ -6,13 +6,10 @@
 
 body {
     font-family: system-ui, -apple-system;
+    font-weight: 200;
     color: #d6d6d6;
     background-color: #191919;
     text-align: center;
-}
-
-body .wrapper {
-    line-height: 1.5;
 }
 
 .wrapper {
@@ -20,7 +17,8 @@ body .wrapper {
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
-    text-align: left;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 header .header-wrapper {
@@ -32,8 +30,8 @@ header .header-wrapper {
 header .header-title {
     float: left;
     text-align: left;
+    font-weight: 100;
     font-size: 1.5em;
-    font-weight: lighter;
     color: #dfbfa5;
     display: table-cell;
     vertical-align: middle;
@@ -58,6 +56,10 @@ header .wrapper {
     line-height: 1.0;
 }
 
+.blog-items {
+    margin-top: 20px;
+}
+
 .list-element {
     list-style-type: none;
     margin-bottom: 20px;
@@ -67,25 +69,21 @@ h1 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 2em;
-    font-weight: normal;
+    font-weight: 300;
     color: #dfbfa5;
 }
 
 h2 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 5px;
     font-size: 1.5em;
-    font-weight: normal;
+    font-weight: 300;
     color: #dfbfa5;
 }
 
 footer {
+    font-weight: 100;
     font-size: 1em;
-    font-weight: lighter;
-}
-
-footer a {
-    font-weight: normal
 }
 
 .blogpost-date {
@@ -101,20 +99,22 @@ p {
 }
 
 a {
+    font-weight: 300;
     color: #dfbfa5;
 }
 
 a.navigation-link {
+    font-weight: 200;
     padding-left: 5px;
     padding-right: 5px;
     color: #d6d6d6;
 }
 
 a.navigation-link-selected {
+    font-weight: 300;
     padding-left: 5px;
     padding-right: 5px;
     color: #dfbfa5;
-    font-weight: bold;
 }
 
 a:link {
