@@ -6,7 +6,7 @@
 
 body {
     font-family: system-ui, -apple-system;
-    font-weight: 200;
+    font-weight: 300;
     color: #d6d6d6;
     background-color: #191919;
     text-align: center;
@@ -104,14 +104,12 @@ a {
 }
 
 a.navigation-link {
-    font-weight: 200;
     padding-left: 5px;
     padding-right: 5px;
     color: #d6d6d6;
 }
 
 a.navigation-link-selected {
-    font-weight: 300;
     padding-left: 5px;
     padding-right: 5px;
     color: #dfbfa5;
